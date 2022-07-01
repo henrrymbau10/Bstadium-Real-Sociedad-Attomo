@@ -1,0 +1,61 @@
+.footer-container {
+    background: linear-gradient(180deg, #1B1B1F 0%, #1B1B1F 16.76%, rgba(27, 27, 31, 0) 93.6%);
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+
+        h1 {
+            font-size: 70px;
+        }
+
+        p {
+            font-size: 32px;
+            margin: 10px 0;
+        }
+
+
+    }
+
+    .disfruta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin-top: 4rem;
+
+        h1 {
+            font-size: 57px;
+            width: 850px;
+            text-align: center;
+        }
+
+        button {
+            color: #0667B0;
+            background-color: rgba(255, 255, 255, 0.87);
+            size: 32px;
+            border-radius: 38px;
+            border: 2px solid #0667B0;
+            padding: 15px 45px;
+            font-size: 32px;
+            font-weight: 600;
+            margin: 3rem 0 3rem;
+        }
+
+        img {
+            margin-bottom: 3rem;
+        }
+
+        .disfruta-bstadium {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 32px;
+                margin: 0 1rem 3.5rem 0;
+            }
+        }
+    }
+}

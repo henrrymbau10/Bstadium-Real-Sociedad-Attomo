@@ -1,0 +1,127 @@
+.main-container {
+
+    .main-first {
+        width: 100%;
+        height: 75vh;
+        background-image: url(../../Assets/Images/Desktop/Pasillo-estadio.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        background-attachment: fixed;
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 70px;
+            margin: 0;
+            padding-top: 5rem;
+            font-weight: 600;
+            font-family: Montserrat, "Helvetica Neue", Helvetica, Arial;
+        }
+
+        p {
+            width: 500px;
+            font-size: 30px;
+            text-align: right;
+            padding-left: 45rem;
+        }
+    }
+
+    .main-second {
+        width: 100%;
+        height: 75vh;
+        color: white;
+        background-image: url(../../Assets/Images/Desktop/Levanta-copa.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+        h1 {
+            margin: 0;
+            text-align: center;
+            color: white;
+            font-size: 70px;
+            margin: 0;
+            padding-top: 5rem;
+            font-weight: 600;
+            font-family: Montserrat, "Helvetica Neue", Helvetica, Arial;
+        }
+
+        .main-second-text {
+            display: flex;
+            padding-left: 50rem;
+
+            h2 {
+                font-size: 50px;
+            }
+        }
+
+        p {
+            width: 500px;
+            font-size: 30px;
+            padding-left: 45rem;
+            text-align: right;
+        }
+    }
+
+    .main-third {
+        width: 100%;
+        height: 75vh;
+        color: white;
+        background-image: url(../../Assets/Images/Desktop/Experiencia-inmersiva.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-attachment: fixed;
+
+        h1 {
+            margin: 0;
+            text-align: center;
+            color: white;
+            font-size: 70px;
+            margin: 0;
+            padding-top: 5rem;
+            font-weight: 600;
+            font-family: Montserrat, "Helvetica Neue", Helvetica, Arial;
+        }
+
+        p {
+            width: 500px;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+
+    .main-fourth {
+        width: 100%;
+        height: 75vh;
+        color: white;
+        background-image: url(../../Assets/Images/Desktop/Foto-jugadores.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+        .main-fourth-text {
+            display: flex;
+            padding: 6rem 0 0 6rem;
+
+            h2 {
+                margin: 0;
+                font-size: 50px;
+                width: 412px;
+            }
+        }
+
+        p {
+            width: 500px;
+            font-size: 30px;
+            padding-left: 6rem;
+        }
+    }
+}

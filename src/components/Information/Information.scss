@@ -1,0 +1,104 @@
+.informacion-container {
+    color: white;
+    padding-bottom: 5rem;
+    background: linear-gradient(90deg, #1B1B1F 0.82%, #0667B0 27.77%, #0667B0 58.65%, #0667B0 74.33%, #1B1B1F 94.91%);
+    background-size: cover;
+
+    .informacion-title {
+        h1 {
+            text-align: center;
+            font-size: 70px;
+            margin: 0;
+            padding: 3rem 0 3rem 0;
+        }
+    }
+
+    .informacion-text {
+        font-size: 30px;
+
+        .informacion-text-calendar {
+            display: flex;
+
+            img {
+                margin: 0 1.8rem 8rem 14rem;
+            }
+
+            p {
+                margin: 0 1rem 0.5rem 0;
+
+            }
+        }
+
+        .informacion-text-clock {
+            display: flex;
+
+            img {
+                margin: 0 1.8rem 0rem 14rem;
+            }
+
+            p {
+                margin-right: 1rem;
+            }
+        }
+
+        .informacion-text-location {
+            display: flex;
+
+            img {
+                margin: 0 2.5rem 4rem 14rem;
+            }
+
+            p {
+                margin: 0 1rem 0.5rem 0;
+            }
+        }
+
+        .informacion-text-menor {
+            display: flex;
+
+            img {
+                margin: 0 2rem 4rem 14rem;
+            }
+
+            p {
+                margin: 0 1rem 0.5rem 0;
+            }
+        }
+
+        .informacion-text-language {
+            display: flex;
+
+            img {
+                margin: 0 2rem 4rem 14rem;
+            }
+
+            p {
+                margin: 0 1rem 0.5rem 0;
+            }
+        }
+
+        .informacion-text-declined {
+            display: flex;
+
+            img {
+                margin: 0 2rem 4rem 14rem;
+            }
+
+            p {
+                margin: 0 1rem 0.5rem 0;
+            }
+        }
+
+        .informacion-text-custom {
+            display: flex;
+
+            img {
+                margin: 0 2rem 6rem 14rem;
+            }
+
+            p {
+                margin: 0 1rem 0.5rem 0;
+            }
+        }
+    }
+}
