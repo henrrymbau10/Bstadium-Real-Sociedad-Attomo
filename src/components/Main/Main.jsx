@@ -16,12 +16,12 @@ export default function Main() {
                 <h1>¿Qué incluye?</h1>
                 <div className="main-second-text">
                     <img src={copa} alt="copa" />
-                    <h2>Levanta la copa</h2>
+                    <h2>LEVANTA LA COPA</h2>
                 </div>
                 <p>Siente toda la emoción de levantar la Copa del Rey ganada en 2020 por el club en una final épica y hazte una foto con ella y el espectacular estadio de fondo. </p>
             </div>
             <div className="main-third">
-                <h1>Experiencia inmersiva 360º</h1>
+                <h1>EXPERIENCIA INMERSIVA 360º</h1>
                 <img src={gafas} alt="gafas" />
                 <p>A través de las gafas de realidad virtual más potentes del mercado, sumérgete en el emocionante ambiente de un partido de la Real Sociedad y emociónate con el cántico del himno por toda la afición en el estadio.  </p>
             </div>
