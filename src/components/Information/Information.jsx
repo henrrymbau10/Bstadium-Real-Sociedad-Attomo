@@ -14,7 +14,7 @@ export default function Information() {
         <div className="informacion-container">
 
             <div className='informacion-title'>
-                <h1>Informacion practica</h1>
+                <h1>Información práctica</h1>
             </div>
 
             <div className="informacion-text">
@@ -31,7 +31,7 @@ export default function Information() {
             <div className="informacion-text">
                 <div className="informacion-text-clock">
                     <img src={clock} alt="clock" />
-                    <p><b>Duracion: </b> 1 hora</p>
+                    <p><b>Duración: </b> 1 hora</p>
                 </div>
             </div>
             <div className="informacion-text">
@@ -67,7 +67,7 @@ export default function Information() {
             <div className="informacion-text">
                 <div className="informacion-text-declined">
                     <img src={declined} alt="declined" />
-                    <p><b>Cancelacion: </b></p>
+                    <p><b>Cancelación: </b></p>
                     <div>
                         <p>Cancelación gratuita hasta 7 días antes</p>
                     </div>

@@ -8,12 +8,12 @@ export default function Main() {
     return (
         <div className="main-container">
             <div className="main-first">
-                <h1>Qué es?</h1>
+                <h1>¿Qué es?</h1>
                 <p>Descubre el nuevo Reale Arena a través de una experiencia sorprendente en la que podrás visitar los lugares más exclusivos del estadio y conocer todos los secretos de la Real Sociedad de Fútbol. </p>
                 <p>Una visita interactiva para todos los públicos en la que podrás interactuar y disfrutar de innovadores experiencias de Realidad Aumentada y Virtual.</p>
             </div>
             <div className="main-second">
-                <h1>Qué incluye?</h1>
+                <h1>¿Qué incluye?</h1>
                 <div className="main-second-text">
                     <img src={copa} alt="copa" />
                     <h2>Levanta la copa</h2>
