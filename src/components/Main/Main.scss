@@ -156,4 +156,106 @@
             padding: 4rem 0 0 10rem;
         }
     }
+
+    @media screen and (min-width: 300px) and (max-width:1099px) {
+
+        .main-first {
+            background-image: url(../../Assets/Images/Mobile/Carousel1-Mobile.png);
+
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 16px;
+                padding: 0;
+                align-self: center;
+                text-align: left;
+                width: 284px;
+            }
+        }
+
+        .main-second {
+            background-image: url(../../Assets/Images/Mobile/Carousel2-Mobile.png);
+
+            h1 {
+                font-size: 40px;
+            }
+
+            .main-second-text {
+                flex-direction: row-reverse;
+                align-self: center;
+
+                h2 {
+                    font-size: 30px;
+                    padding-right: 0rem;
+                    align-self: center;
+                    width: 190px;
+                }
+
+                img {
+                    width: 50px;
+                }
+
+            }
+
+            p {
+                font-size: 16px;
+                padding: 0;
+                align-self: center;
+                text-align: left;
+                width: 284px;
+            }
+        }
+
+        .main-third {
+            background-image: url(../../Assets/Images/Mobile/Carousel3-Mobile.png);
+
+            h1 {
+                font-size: 40px;
+                width: 350px;
+            }
+
+            p {
+                font-size: 16px;
+                padding: 2rem 0 0 0;
+                align-self: center;
+                text-align: left;
+                width: 284px
+            }
+
+            img {
+                width: 50px;
+            }
+        }
+
+        .main-fourth {
+            background-image: url(../../Assets/Images/Mobile/Carousel4-Mobile.png);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .main-fourth-text {
+
+                padding: 3rem 0 0 0;
+
+                h2 {
+                    font-size: 40px;
+                }
+
+                img {
+                    width: 50px;
+                    margin: -85px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                padding: 0;
+                align-self: center;
+                text-align: left;
+                width: 284px;
+            }
+        }
+    }
 }

@@ -15,7 +15,7 @@ export default function Home() {
                 <video autoPlay loop muted className="videodesk"><source src={videoDesk} type="video/mp4" /></video>
                 <video autoPlay loop muted className="videomob"><source src={videoMob} type="video/mp4" /></video>
                 <h1>TOUR INTERACTIVO</h1>
-                <h2>REALE ARENA</h2>
+                <h2>Reale Arena</h2>
                 <button>ENTRADAS</button>
             </div>
         </div>

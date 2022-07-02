@@ -59,4 +59,44 @@
             }
         }
     }
+
+    @media screen and (min-width: 300px) and (max-width:1099px) {
+
+        .contacto {
+
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .disfruta {
+
+            h1 {
+                font-size: 40px;
+                width: 325px;
+            }
+
+            button {
+                margin-top: 4rem;
+                padding: 13px 50px;
+                font-size: 20px;
+            }
+
+            img {
+                width: 84px;
+            }
+
+            .disfruta-bstadium {
+
+                p {
+                    font-size: 16px;
+                }
+
+            }
+        }
+    }
 }

@@ -59,26 +59,44 @@
         position: relative;
     }
 
-    @media screen and (min-width: 300px) and (max-width:1199px) {
+    @media screen and (min-width: 300px) and (max-width:1099px) {
         height: 100vh;
 
+        .videodesk {
+            display: none;
+        }
+
+        .videomob {
+            display: block;
+            position: absolute;
+            width: 100%;
+            left: 50%;
+            top: 50%;
+            height: 100%;
+            object-fit: cover;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
         h1 {
-            font-size: 34px;
+            font-size: 42px;
             width: 370px;
             line-height: 100%;
-            margin-top: 3rem;
+            margin-top: 7rem;
         }
 
         h2 {
-            font-size: 31px;
+            font-size: 45px;
             width: 325px;
-            color: rgba(255, 255, 255, 0.81);
+            color: white;
             margin-top: 1rem;
             font-weight: 400;
         }
 
         button {
             margin-top: 4rem;
+            padding: 13px 50px;
+            font-size: 20px;
         }
 
         .home-button {

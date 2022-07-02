@@ -16,7 +16,6 @@ export default function Information() {
             <div className='informacion-title'>
                 <h1>Información práctica</h1>
             </div>
-
             <div className="informacion-text">
                 <div className="informacion-text-calendar">
                     <img src={calendar} alt="calendario" />

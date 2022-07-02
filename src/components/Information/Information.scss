@@ -105,4 +105,18 @@
             }
         }
     }
+
+    @media screen and (min-width: 300px) and (max-width:1099px) {
+        display: none;
+
+        p {
+            font-size: 16px;
+        }
+
+        .informacion-title {
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
 }
