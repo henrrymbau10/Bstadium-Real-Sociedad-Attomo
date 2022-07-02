@@ -27,7 +27,7 @@ export default function Main() {
             </div>
             <div className="main-fourth">
                 <div className="main-fourth-text">
-                    <h2>FOTO CON LOS JUGADORES</h2>
+                    <h2>FOTO CON JUGADORES</h2>
                     <img src={selfie} alt="" />
                 </div>
                 <p>Elige entre 6 jugadores distintos para hacerte una foto con ellos en zona mixta, uno de los espacios más característicos y especiales del estadio.</p>
