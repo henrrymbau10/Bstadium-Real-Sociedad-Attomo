@@ -8,6 +8,10 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800;900&display=swap');
 
+* {
+  font-family: montserrat;
+}
+
 @keyframes floating {
   0% {
     transform: translate(0%, 0%) rotate(360deg);

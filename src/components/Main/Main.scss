@@ -9,22 +9,26 @@
         background-position: center;
         color: white;
         background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        place-items: flex-end;
 
         h1 {
             text-align: center;
             color: white;
             font-size: 70px;
             margin: 0;
-            padding-top: 5rem;
+            padding: 5rem 0 4rem 0;
             font-weight: 600;
             font-family: Montserrat, "Helvetica Neue", Helvetica, Arial;
+            align-self: center;
         }
 
         p {
             width: 500px;
-            font-size: 30px;
+            font-size: 20px;
             text-align: right;
-            padding-left: 45rem;
+            padding-right: 10rem;
         }
     }
 
@@ -37,6 +41,9 @@
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        place-items: flex-end;
 
         h1 {
             margin: 0;
@@ -44,18 +51,19 @@
             color: white;
             font-size: 70px;
             margin: 0;
-            padding: 5rem 0 4rem 0;
+            padding: 5rem 0 3rem 0;
             font-weight: 600;
+            align-self: center;
             font-family: Montserrat, "Helvetica Neue", Helvetica, Arial;
         }
 
         .main-second-text {
             display: flex;
-            padding-left: 36rem;
 
             h2 {
                 font-size: 50px;
                 margin-left: 2rem;
+                padding-right: 10rem;
             }
 
             img {
@@ -68,8 +76,8 @@
 
         p {
             width: 500px;
-            font-size: 30px;
-            padding-left: 38rem;
+            font-size: 20px;
+            padding-right: 10rem;
             text-align: right;
         }
     }
@@ -101,7 +109,7 @@
         p {
             width: 500px;
             text-align: center;
-            font-size: 30px;
+            font-size: 20px;
             padding-top: 7rem;
         }
 
@@ -126,7 +134,7 @@
 
         .main-fourth-text {
             display: flex;
-            padding: 11rem 0 0 13rem;
+            padding: 6rem 0 0 10rem;
 
             h2 {
                 margin: 0;
@@ -144,8 +152,8 @@
 
         p {
             width: 500px;
-            font-size: 30px;
-            padding: 6rem 0 0 13rem;
+            font-size: 20px;
+            padding: 4rem 0 0 10rem;
         }
     }
 }

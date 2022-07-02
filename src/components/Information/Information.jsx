@@ -76,7 +76,7 @@ export default function Information() {
             <div className="informacion-text">
                 <div className="informacion-text-custom">
                     <img src={custom} alt="language" />
-                    <p><b>Cancelacion: </b></p>
+                    <p><b>Personalizar: </b></p>
                     <div>
                         <p>Para personalizar tu experiencia (cumpleaños, </p>
                         <p>empresas, grupos grandes) contactad con  </p>
