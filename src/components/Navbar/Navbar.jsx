@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import "./Navbar.scss"
 import logo from "../../Assets/Images/Desktop/image 1.svg"
-// import { useTranslation } from "react-i18next"
+import { useTranslation } from "react-i18next"
 import { VscChromeClose } from 'react-icons/vsc';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 
 
 function Navbar() {
-    // const [t, i18n] = useTranslation("global")
+    const [t, i18n] = useTranslation("global")
     const [showMobileMenu, setShowMobileMenu] = useState(false);
 
     const scrollTo = (nodeSelector) => {
@@ -31,17 +31,17 @@ function Navbar() {
                 <img src={logo} alt="logoBS" />
             </div>
             <div className="navbar-list">
-                <p onClick={() => scrollTo('.main-desafio')}>¿Qué es?</p>
-                <p onClick={() => scrollTo('.main-recorrido')}>¿Qué incluye?</p>
-                <p onClick={() => scrollTo('.main-particion-title')}>Info Práctica</p>
-                <p onClick={() => scrollTo('.main-disfrutaras')}>Entradas</p>
+                <p onClick={() => scrollTo('.main-first')}>{t("navbar.whatis")}</p>
+                <p onClick={() => scrollTo('.main-second')}>{t("navbar.included")}</p>
+                <p onClick={() => scrollTo('.informacion-text')}>{t("navbar.info")}</p>
+                <p onClick={() => scrollTo('.disfruta-bstadium')}>{t("navbar.tickets")}</p>
             </div>
             <div className="navbar-language">
-                <p>CAS</p>
+                <p onClick={() => i18n.changeLanguage("es")}><b>CAS</b></p>
                 <p>|</p>
-                <p>EUS</p>
+                <p onClick={() => i18n.changeLanguage("eus")}>EUS</p>
                 <p>|</p>
-                <p>ENG</p>
+                <p onClick={() => i18n.changeLanguage("en")}>ENG</p>
             </div>
         </div>
     )

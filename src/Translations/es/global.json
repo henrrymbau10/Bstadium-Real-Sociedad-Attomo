@@ -1,0 +1,25 @@
+{
+    "navbar": {
+        "whatis": "¿Qué es?",
+        "included": "¿Qué incluye?",
+        "info": "Info Práctica",
+        "tickets": "Entradas"
+    },
+    "home": {
+        "tour": "TOUR INTERACTIVO",
+        "arena": "Reale Arena",
+        "button": "ENTRADAS"
+    },
+    "main": {
+        "whatis": "¿Qué es?",
+        "whatis-text": "Descubre el nuevo Reale Arena a través de una experiencia sorprendente en la que podrás visitar los lugares más exclusivos del estadio y conocer todos los secretos de la Real Sociedad de Fútbol. ",
+        "whatis-text2": "Una visita interactiva para todos los públicos en la que podrás interactuar y disfrutar de innovadores experiencias de Realidad Aumentada y Virtual.",
+        "included": "¿Qué incluye?",
+        "included-subtitle": "LEVANTA LA COPA",
+        "included-text": "Siente toda la emoción de levantar la Copa del Rey ganada en 2020 por el club en una final épica y hazte una foto con ella y el espectacular estadio de fondo.",
+        "experience": "EXPERIENCIA INMERSIVA 360º",
+        "experience-text": "A través de las gafas de realidad virtual más potentes del mercado, sumérgete en el emocionante ambiente de un partido de la Real Sociedad y emociónate con el cántico del himno por toda la afición en el estadio.",
+        "photo": "FOTO CON JUGADORES",
+        "photo-text": "Elige entre 6 jugadores distintos para hacerte una foto con ellos en zona mixta, uno de los espacios más característicos y especiales del estadio."
+    }
+}
