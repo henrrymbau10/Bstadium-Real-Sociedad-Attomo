@@ -62,12 +62,13 @@
 
             h2 {
                 font-size: 40px;
-                margin-left: 2rem;
+                margin-left: 1.5rem;
                 padding-right: 10rem;
+                
             }
 
             img {
-                width: 50px;
+                width: 45px;
                 animation-name: floating;
                 animation-duration: 2s;
                 animation-timing-function: ease;
@@ -98,7 +99,7 @@
 
         h1 {
             margin: 0;
-            text-align: center;
+            text-align: left;
             color: white;
             font-size: 46px;
             margin: 0;
@@ -115,7 +116,7 @@
         }
 
         img {
-            width: 50px;
+            width: 70px;
             padding-top: 2rem;
             animation-name: floating;
             animation-duration: 2s;
@@ -145,7 +146,7 @@
             }
 
             img {
-                width: 50px;
+                width: 60px;
                 animation-name: floating;
                 animation-duration: 2s;
                 animation-timing-function: ease;
@@ -174,7 +175,7 @@
                 padding: 0 1rem 0 1rem;
                 align-self: center;
                 text-align: left;
-                width: 300px;
+                width: 325px;
             }
         }
 
@@ -189,16 +190,18 @@
                 flex-direction: row-reverse;
                 align-self: center;
                 padding-right: 5rem;
+                
+        
 
                 h2 {
                     font-size: 35px;
                     padding-right: 0rem;
                     align-self: center;
-                    width: 190px;
+                    
                 }
 
                 img {
-                    width: 50px;
+                    width: 40px;
                 }
 
             }
@@ -208,7 +211,7 @@
                 padding: 0;
                 align-self: center;
                 text-align: left;
-                width: 300px;
+                width: 325px;
             }
         }
 
@@ -218,6 +221,7 @@
             h1 {
                 font-size: 40px;
                 width: 350px;
+                margin-left: 20px;
             }
 
             p {
@@ -225,7 +229,7 @@
                 padding: 2rem 0 0 0;
                 align-self: center;
                 text-align: left;
-                width: 300px
+                width: 325px
             }
 
             img {
@@ -250,6 +254,7 @@
                     font-size: 40px;
                     padding-bottom: 6rem;
                     width: 274px;
+                    margin-right: 65px;         
                 }
 
                 img {
@@ -263,7 +268,7 @@
                 padding: 6rem 0 0 0;
                 align-self: center;
                 text-align: left;
-                width: 300px;
+                width: 325px;
             }
         }
     }
