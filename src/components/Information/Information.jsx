@@ -23,7 +23,7 @@ export default function Information() {
                     <div>
                         <p>Jueves: <b>17:00h y 18:00h</b></p>
                         <p>Viernes: <b>17:00h, 18:00h y 19:00h</b></p>
-                        <p>Jueves: <b>12:00h, 17:00h y 18:00h</b></p>
+                        <p>Sábado: <b>12:00h, 17:00h y 18:00h</b></p>
                     </div>
                 </div>
             </div>
