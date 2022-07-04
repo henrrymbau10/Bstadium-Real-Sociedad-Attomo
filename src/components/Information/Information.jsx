@@ -84,6 +84,82 @@ export default function Information() {
                 </div>
             </div>
 
+            <div className="informacion-container-mobile">
+
+                <div className="informacion-container-mobile-general">
+                    <div className="mobile-general-icon-calendar">
+                        <img src={calendar} alt="calendario" />
+                    </div>
+                    <div className="mobile-general-text">
+                        <p><b>Fecha y hora:</b></p>
+                        <p>Jueves: <b>17:00h y 18:00h</b></p>
+                        <p>Viernes: <b>17:00h, 18:00h y 19:00</b></p>
+                        <p>Sábado: <b>12:00h, 17:00h y 18:00h</b></p>
+                    </div>
+                </div>
+                <div className="informacion-container-mobile-general">
+                    <div className="mobile-general-icon-clock">
+                        <img src={clock} alt="calendario" />
+                    </div>
+                    <div className="mobile-general-text">
+                        <p><b>Duración:</b> 1 hora</p>
+                    </div>
+                </div>
+                <div className="informacion-container-mobile-general">
+                    <div className="mobile-general-icon-location">
+                        <img src={location} alt="calendario" />
+                    </div>
+                    <div className="mobile-general-text">
+                        <p><b>Lugar:</b> Reale Arena</p>
+                        <p><b>Punto de encuentro:</b> Puerta</p>
+                        <p>Hospitally</p>
+                    </div>
+                </div>
+                <div className="informacion-container-mobile-general">
+                    <div className="mobile-general-icon-menor">
+                        <img src={menor} alt="calendario" />
+                    </div>
+                    <div className="mobile-general-text">
+                        <p><b>Menores:</b> Acceso permitido a </p>
+                        <p>todos los públicos. Entrada </p>
+                        <p>gratuita para menores de </p>
+                        <p>5 años.</p>
+                    </div>
+                </div>
+                <div className="informacion-container-mobile-general">
+                    <div className="mobile-general-icon-language">
+                        <img src={language} alt="calendario" />
+                    </div>
+                    <div className="mobile-general-text">
+                        <p><b>Idiomas:</b> Euskera y Castellano |</p>
+                        <p>También disponible bajo</p>
+                        <p>petición en ING, FRA, ALE...</p>
+                    </div>
+                </div>
+                <div className="informacion-container-mobile-general">
+                    <div className="mobile-general-icon-declined">
+                        <img src={declined} alt="calendario" />
+                    </div>
+                    <div className="mobile-general-text">
+                        <p><b>Cancelación:</b> Cancelación </p>
+                        <p>gratuita hasta 7 días antes</p>
+                    </div>
+                </div>
+                <div className="informacion-container-mobile-general">
+                    <div className="mobile-general-icon-custom">
+                        <img src={custom} alt="calendario" />
+                    </div>
+                    <div className="mobile-general-text">
+                        <p><b>Personalizar:</b> Para personalizar</p>
+                        <p> tu experiencia (cumpleaños, </p>
+                        <p>empresas, gruposgrandes) </p>
+                        <p>contactad con hola@bstadium.es</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
+
+
     )
 }
