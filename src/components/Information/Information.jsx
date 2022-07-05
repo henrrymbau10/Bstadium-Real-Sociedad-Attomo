@@ -21,9 +21,7 @@ export default function Information() {
                     <img src={calendar} alt="calendario" />
                     <p><b>Fecha y hora: </b></p>
                     <div>
-                        <p>Jueves: <b>17:00h y 18:00h</b></p>
-                        <p>Viernes: <b>17:00h, 18:00h y 19:00h</b></p>
-                        <p>Sábado: <b>12:00h, 17:00h y 18:00h</b></p>
+                        <p>martes: <b>17:00h y 18:00h</b> Viernes: <b>17:00h, 18:00h y 19:00h</b> Sábado: <b>12:00h, 17:00h y 18:00h</b></p>
                     </div>
                 </div>
             </div>

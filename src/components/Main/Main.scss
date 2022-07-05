@@ -160,10 +160,11 @@
         }
     }
 
-    @media screen and (min-width: 300px) and (max-width:1099px) {
+    @media screen and (min-width: 300px) and (max-width:859px) {
 
         .main-first {
             background-image: url(../../Assets/Images/Mobile/Carousel1-Mobile.png);
+            background-attachment: unset;
 
             h1 {
                 font-size: 40px;
@@ -174,12 +175,13 @@
                 padding: 0 1rem 0 1rem;
                 align-self: center;
                 text-align: left;
-                width: 300px;
+                width: 70%;
             }
         }
 
         .main-second {
             background-image: url(../../Assets/Images/Mobile/Carousel2-Mobile.png);
+            background-attachment: unset;
 
             h1 {
                 font-size: 40px;
@@ -194,7 +196,8 @@
                     font-size: 35px;
                     padding-right: 0rem;
                     align-self: center;
-                    width: 190px;
+                    width: 80%;
+                    padding-left: 3rem;
                 }
 
                 img {
@@ -208,16 +211,18 @@
                 padding: 0;
                 align-self: center;
                 text-align: left;
-                width: 300px;
+                width: 70%;
             }
         }
 
         .main-third {
             background-image: url(../../Assets/Images/Mobile/Carousel3-Mobile.png);
+            background-attachment: initial;
 
             h1 {
                 font-size: 40px;
-                width: 350px;
+                width: 90%;
+                margin: 0 2rem 0 2rem;
             }
 
             p {
@@ -225,7 +230,7 @@
                 padding: 2rem 0 0 0;
                 align-self: center;
                 text-align: left;
-                width: 300px
+                width: 80%;
             }
 
             img {
@@ -238,6 +243,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            background-attachment: unset;
 
             .main-fourth-text {
 
@@ -249,7 +255,9 @@
                 h2 {
                     font-size: 40px;
                     padding-bottom: 6rem;
-                    width: 274px;
+                    width: 90%;
+                    margin: 0 2rem 0 2rem;
+                    text-align: center;
                 }
 
                 img {
@@ -263,7 +271,7 @@
                 padding: 6rem 0 0 0;
                 align-self: center;
                 text-align: left;
-                width: 300px;
+                width: 70%;
             }
         }
     }
