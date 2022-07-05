@@ -46,7 +46,7 @@ export default function Information() {
                     <img src={menor} alt="menor" />
                     <p><b>Menores: </b></p>
                     <div>
-                        <p>Acceso permitido a todos los públicos. Entrada</p>
+                        <p>Acceso permitido a todos los públicos. Entrada gratuita para menores de 5 años.</p>
                         <p>gratuita para menores de 5 años.</p>
                     </div>
                 </div>

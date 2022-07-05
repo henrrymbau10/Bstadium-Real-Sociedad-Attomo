@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Main.scss"
 import gafas from "../../Assets/Images/Desktop/GafasSVG.svg"
-import copa from "../../Assets/Images/Desktop/CopaSVG.svg"
+import copa from "../../Assets/Images/Desktop/Copas.svg"
 import selfie from "../../Assets/Images/Desktop/SelfieSVG.svg"
 import { useTranslation } from "react-i18next"
 

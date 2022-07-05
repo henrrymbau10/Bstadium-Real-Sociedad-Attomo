@@ -62,12 +62,13 @@
 
             h2 {
                 font-size: 40px;
-                margin-left: 2rem;
+                margin-left: 1.5rem;
                 padding-right: 10rem;
+
             }
 
             img {
-                width: 50px;
+                width: 45px;
                 animation-name: floating;
                 animation-duration: 2s;
                 animation-timing-function: ease;
@@ -98,7 +99,7 @@
 
         h1 {
             margin: 0;
-            text-align: center;
+            text-align: left;
             color: white;
             font-size: 46px;
             margin: 0;
@@ -115,7 +116,7 @@
         }
 
         img {
-            width: 50px;
+            width: 70px;
             padding-top: 2rem;
             animation-name: floating;
             animation-duration: 2s;
@@ -145,7 +146,7 @@
             }
 
             img {
-                width: 50px;
+                width: 60px;
                 animation-name: floating;
                 animation-duration: 2s;
                 animation-timing-function: ease;
@@ -192,6 +193,8 @@
                 align-self: center;
                 padding-right: 5rem;
 
+
+
                 h2 {
                     font-size: 35px;
                     padding-right: 0rem;
@@ -201,7 +204,7 @@
                 }
 
                 img {
-                    width: 50px;
+                    width: 40px;
                 }
 
             }
@@ -221,8 +224,9 @@
 
             h1 {
                 font-size: 40px;
-                width: 90%;
+                width: 80%;
                 margin: 0 2rem 0 2rem;
+                text-align: center;
             }
 
             p {
@@ -230,7 +234,7 @@
                 padding: 2rem 0 0 0;
                 align-self: center;
                 text-align: left;
-                width: 80%;
+                width: 70%;
             }
 
             img {
