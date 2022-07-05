@@ -107,8 +107,8 @@ export default function Contact() {
             <img src={calendar} alt="calendario" />
           </div>
           <div className="mobile-general-text">
-            <p><b>Fecha y hora:</b> Jueves: <b>17:00h y 18:00h</b> Viernes: <b>17:00h, 18:00h y 19:00</b></p>
-            <p>Sábado: <b>12:00h, 17:00h y 18:00h</b></p>
+            <p><b>Fecha y hora:</b> </p>
+            <p>Jueves: <b>17:00h y 18:00h</b> Viernes: <b>17:00h, 18:00h y 19:00</b> Sábado: <b>12:00h, 17:00h y 18:00h</b></p>
           </div>
         </div>
         <div className="informacion-container-mobile-general">
