@@ -1,6 +1,14 @@
 .footer-container {
     background: linear-gradient(180deg, #1B1B1F 0%, #1B1B1F 16.76%, rgba(27, 27, 31, 0) 93.6%);
 
+    .informacion-container-mobile {
+        display: none;
+    }
+
+    .calendar-b {
+        min-width: 124.87px;
+    }
+
     .contacto {
         display: flex;
         flex-direction: column;
@@ -47,7 +55,7 @@
 
         img {
             margin-bottom: 3rem;
-            
+
         }
 
         .disfruta-bstadium {
@@ -60,15 +68,15 @@
                 margin: 0 1rem 3.1rem 0;
             }
 
-            img{
+            img {
                 width: 130px;
             }
         }
 
-        
+
     }
 
-    @media screen and (min-width: 300px) and (max-width:1099px) {
+    @media screen and (min-width: 300px) and (max-width:859px) {
 
         .contacto {
 
@@ -78,6 +86,7 @@
 
             p {
                 font-size: 20px;
+                color: white;
             }
         }
 
@@ -106,6 +115,108 @@
                     margin: 0 0.5rem 3.5rem 0
                 }
 
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: white;
+        }
+
+        .informacion-title {
+            h1 {
+                font-size: 50px;
+            }
+        }
+
+        .informacion-text {
+            display: none;
+        }
+
+        .informacion-container-mobile {
+            display: block;
+
+            .informacion-container-mobile-general {
+                display: flex;
+                margin: 1rem 0 0 0rem;
+                justify-content: center;
+
+                p {
+                    margin: 0.5rem 0 0 1rem;
+                }
+
+                .mobile-general-icon-calendar {
+                    .mobile-general-text {
+                        margin-right: 2rem;
+                    }
+
+                    img {
+                        width: 20px;
+                        padding: 0.5rem 0 0 0;
+                    }
+                }
+
+                .mobile-general-icon-clock {
+                    .mobile-general-text {
+                        margin-right: 9.7rem;
+                    }
+
+                    img {
+                        width: 20px;
+                        padding: 0.5rem 0 0 0;
+                    }
+                }
+
+                .mobile-general-icon-location {
+                    .mobile-general-text {
+                        margin-right: 3.4rem;
+                    }
+
+                    img {
+                        width: 15px;
+                        padding: 0.5rem 0 0 0;
+                    }
+                }
+
+                .mobile-general-icon-menor {
+                    .mobile-general-text {
+                        margin-right: 2.7rem;
+                    }
+
+                    img {
+                        width: 20px;
+                        padding: 0.2rem 0 0 0;
+                    }
+                }
+
+                .mobile-general-icon-language {
+                    .mobile-general-text {
+                        margin-right: 1.8rem;
+                    }
+
+                    img {
+                        width: 20px;
+                        padding: 0.7rem 0 0 0;
+                    }
+                }
+
+                .mobile-general-icon-declined {
+                    .mobile-general-text {
+                        margin-right: 4rem;
+                    }
+
+                    img {
+                        width: 20px;
+                        padding: 0.5rem 0 0 0;
+                    }
+                }
+
+                .mobile-general-icon-custom {
+                    img {
+                        width: 20px;
+                        padding: 0.5rem 0 0 0;
+                    }
+                }
             }
         }
     }

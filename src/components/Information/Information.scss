@@ -25,6 +25,10 @@
     .informacion-text {
         font-size: 30px;
 
+        .p-text {
+            margin-right: 3rem;
+        }
+
         .informacion-text-calendar {
             display: flex;
 
@@ -111,107 +115,4 @@
         }
     }
 
-    @media screen and (min-width: 300px) and (max-width:1099px) {
-
-        p {
-            font-size: 16px;
-        }
-
-        .informacion-title {
-            h1 {
-                font-size: 50px;
-            }
-        }
-
-        .informacion-text {
-            display: none;
-        }
-
-        .informacion-container-mobile {
-            display: flex;
-
-            .informacion-container-mobile-general {
-                display: flex;
-                margin: 1rem 0 0 0rem;
-                justify-content: center;
-
-                p {
-                    margin: 0.5rem 0 0 1rem;
-                }
-
-                .mobile-general-icon-calendar {
-                    .mobile-general-text {
-                        margin-right: 2rem;
-                    }
-
-                    img {
-                        width: 20px;
-                        padding: 0.5rem 0 0 0;
-                    }
-                }
-
-                .mobile-general-icon-clock {
-                    .mobile-general-text {
-                        margin-right: 9.7rem;
-                    }
-
-                    img {
-                        width: 20px;
-                        padding: 0.5rem 0 0 0;
-                    }
-                }
-
-                .mobile-general-icon-location {
-                    .mobile-general-text {
-                        margin-right: 3.4rem;
-                    }
-
-                    img {
-                        width: 15px;
-                        padding: 0.5rem 0 0 0;
-                    }
-                }
-
-                .mobile-general-icon-menor {
-                    .mobile-general-text {
-                        margin-right: 2.7rem;
-                    }
-
-                    img {
-                        width: 20px;
-                        padding: 0.2rem 0 0 0;
-                    }
-                }
-
-                .mobile-general-icon-language {
-                    .mobile-general-text {
-                        margin-right: 1.8rem;
-                    }
-
-                    img {
-                        width: 20px;
-                        padding: 0.7rem 0 0 0;
-                    }
-                }
-
-                .mobile-general-icon-declined {
-                    .mobile-general-text {
-                        margin-right: 4rem;
-                    }
-
-                    img {
-                        width: 20px;
-                        padding: 0.5rem 0 0 0;
-                    }
-                }
-
-                .mobile-general-icon-custom {
-                    img {
-                        width: 20px;
-                        padding: 0.5rem 0 0 0;
-                    }
-                }
-            }
-        }
-    }
 }
