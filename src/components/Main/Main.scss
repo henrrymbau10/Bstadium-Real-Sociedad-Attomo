@@ -169,6 +169,7 @@
 
             h1 {
                 font-size: 40px;
+                padding: 2rem;
             }
 
             p {
@@ -186,12 +187,13 @@
 
             h1 {
                 font-size: 40px;
+                padding: 2rem;
             }
 
             .main-second-text {
-                flex-direction: row-reverse;
+                flex-direction: column-reverse;
                 align-self: center;
-                padding-right: 5rem;
+                align-items: center;
 
 
 
@@ -199,12 +201,13 @@
                     font-size: 35px;
                     padding-right: 0rem;
                     align-self: center;
-                    width: 80%;
-                    padding-left: 3rem;
+                    width: 95%;
+                    text-align: center;
                 }
 
                 img {
                     width: 40px;
+                    padding-bottom: 2rem;
                 }
 
             }
@@ -266,7 +269,8 @@
 
                 img {
                     width: 50px;
-                    margin: -85px;
+                    margin: -4rem 0 -4rem 0;
+
                 }
             }
 

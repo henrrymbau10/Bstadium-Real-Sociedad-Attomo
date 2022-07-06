@@ -16,6 +16,7 @@ export default function Information() {
             <div className='informacion-title'>
                 <h1>Información práctica</h1>
             </div>
+
             <div className="informacion-text">
                 <div className="informacion-text-calendar">
                     <img src={calendar} alt="calendario" />
@@ -36,8 +37,8 @@ export default function Information() {
                     <img src={location} alt="location" />
                     <p><b>Lugar: </b></p>
                     <div>
-                        <p>Reale Arena</p>
-                        <p>Punto de encuentro: Puerta Hospitaly</p>
+                        <p className="informacion-p-location">Reale Arena</p>
+                        <p className="informacion-p-location">Punto de encuentro: Puerta Hospitaly</p>
                     </div>
                 </div>
             </div>
