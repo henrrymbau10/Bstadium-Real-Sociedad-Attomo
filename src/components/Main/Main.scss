@@ -201,7 +201,8 @@
                     font-size: 35px;
                     padding-right: 0rem;
                     align-self: center;
-                    width: 95%;
+                    margin: 0;
+                    padding: 0 0 2rem;
                     text-align: center;
                 }
 
@@ -230,6 +231,7 @@
                 width: 80%;
                 margin: 0 2rem 0 2rem;
                 text-align: center;
+                padding: 2rem 0 0 0;
             }
 
             p {
@@ -254,7 +256,7 @@
 
             .main-fourth-text {
 
-                padding: 5rem 0 0 0;
+                padding: 2rem 0 0 0;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
