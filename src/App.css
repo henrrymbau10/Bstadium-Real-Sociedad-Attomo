@@ -33,3 +33,7 @@ body {
     transform: translate(0%, 0%) rotate(360deg);
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

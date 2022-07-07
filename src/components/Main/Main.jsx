@@ -5,40 +5,7 @@ import copa from "../../Assets/Images/Desktop/Copas.svg"
 import selfie from "../../Assets/Images/Desktop/SelfieSVG.svg"
 import { useTranslation } from "react-i18next"
 import { motion } from "framer-motion";
-// import { useInView } from "react-intersection-observer";
 
-// const boxVariant = {
-//     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-//     hidden: { opacity: 0, scale: 0 }
-// };
-
-// const textAnimate = {
-//     offscreen: { y: 100, opacity: 0 },
-//     onscreen: {
-//         y: 0,
-//         opacity: 1,
-//         transition: {
-//             type: "spring",
-//             bounce: 0.4,
-//             duration: 1.5
-//         }
-//     }
-
-// }
-
-// const textAnimateL = {
-//     offscreen: { x: 100, opacity: 0 },
-//     onscreen: {
-//         x: 0,
-//         opacity: 1,
-//         transition: {
-//             type: "spring",
-//             bounce: 0.4,
-//             duration: 2.5
-//         }
-//     }
-
-// }
 
 const textAnimateR = {
     offscreen: { x: -100, opacity: 0 },
@@ -54,36 +21,11 @@ const textAnimateR = {
 
 }
 
-// const textAnimateA = {
-//     offscreen: { x: 0, opacity: 0, scale: 0 },
-//     onscreen: {
-//         x: 0,
-//         scale: 1,
-//         opacity: 1,
-//         transition: {
-//             type: "spring",
-//             bounce: 0.4,
-//             duration: 4.5
-//         }
-//     }
-
-// }
 
 
 export default function Main() {
 
-    // const control = useAnimation();
-    // const [ref, inView] = useInView();
-
     const [t] = useTranslation("global")
-
-    // useEffect(() => {
-    //     if (inView) {
-    //         control.start("visible");
-    //     } else {
-    //         control.start("hidden");
-    //     }
-    // }, [control, inView]);
 
     return (
         <div className="main-container">

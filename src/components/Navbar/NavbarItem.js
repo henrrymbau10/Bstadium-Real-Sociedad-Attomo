@@ -22,7 +22,13 @@ export const Menu = styled.div`
 
     p{
         color: white;
+        font-size: 16px;
     }
+
+    .p-menu{
+        margin-bottom: 9rem;
+    }
+
 `
 
 export const MobileIcon = styled.div`
