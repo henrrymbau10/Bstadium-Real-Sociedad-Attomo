@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Navbar.scss"
 import logo from "../../Assets/Images/Desktop/image 1.svg"
 import { useTranslation } from "react-i18next"
-import { VscChromeClose } from 'react-icons/vsc';
-import { GiHamburgerMenu } from 'react-icons/gi';
+// import { VscChromeClose } from 'react-icons/vsc';
+// import { GiHamburgerMenu } from 'react-icons/gi';
 
 
 
 function Navbar() {
     const [t, i18n] = useTranslation("global")
-    const [showMobileMenu, setShowMobileMenu] = useState(false);
+    // const [showMobileMenu, setShowMobileMenu] = useState(false);
 
     const scrollTo = (nodeSelector) => {
         const domNode = document.querySelector(nodeSelector)
@@ -20,13 +20,8 @@ function Navbar() {
 
     return (
         <div className="navbar">
-            <div className="navbar-mobile">
-                {
-                    showMobileMenu ?
-                        <VscChromeClose onClick={() => setShowMobileMenu(!showMobileMenu)} />
-                        : <GiHamburgerMenu onClick={() => setShowMobileMenu(!showMobileMenu)} />
-                }
-            </div>
+
+
             <div className="navbar-logo">
                 <img src={logo} alt="logoBS" />
             </div>
