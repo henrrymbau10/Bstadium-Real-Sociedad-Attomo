@@ -12,8 +12,8 @@ export default function Home() {
         <div>
             <div className="home">
                 <Navbar />
-                <video autoPlay loop muted className="videodesk"><source src={videoDesk} type="video/mp4" /></video>
-                <video autoPlay loop muted className="videomob"><source src={videoMob} type="video/mp4" /></video>
+                <video autoPlay playsinline loop muted className="videodesk"><source src={videoDesk} type="video/mp4" /></video>
+                <video autoPlay playsinline loop muted className="videomob"><source src={videoMob} type="video/mp4" /></video>
                 <h1>{t("home.tour")}</h1>
                 <h2>{t("home.arena")}</h2>
                 <button>{t("home.button")}</button>
