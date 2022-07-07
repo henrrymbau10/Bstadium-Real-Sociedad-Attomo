@@ -46,7 +46,7 @@ function Navbar() {
             <div className="navbar-list">
                 <p onClick={() => scrollTo('.main-first')}>{t("navbar.whatis")}</p>
                 <p onClick={() => scrollTo('.main-second')}>{t("navbar.included")}</p>
-                <p onClick={() => scrollTo('.informacion-container')}>{t("navbar.info")}</p>
+                <p onClick={() => scrollTo('.informacion-text-clock')}>{t("navbar.info")}</p>
                 <p onClick={() => scrollTo('#entradas')}>{t("navbar.tickets")}</p>
             </div>
             <div className="navbar-language">

@@ -7,8 +7,9 @@ export const NavMobile = styled.div`
 `
 
 export const Menu = styled.div`
-display: flex;
+    display: flex;
     background-color: black;
+    background: linear-gradient(90deg, #1B1B1F 0.82%, #0667B0 27.77%, #0667B0 58.65%, #0667B0 74.33%, #1B1B1F 94.91%);
     position: absolute;
     top: ${({ open }) => (open ? "0" : "-100%")}; ;
     width: 100%;
@@ -16,7 +17,7 @@ display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    transition: 0.5 all ease;
+    transition: 2 all ease;
 
     p{
         color: white;
@@ -41,7 +42,9 @@ export const MobileIcon2 = styled.div`
 
     svg {
       color: white;
-      margin-left: 1rem;
+      position: absolute;
+      top: 0rem;
+      right: 2rem;
     }
 `
 

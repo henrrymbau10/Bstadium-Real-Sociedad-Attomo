@@ -45,7 +45,7 @@ export default function Information() {
             <div className="informacion-text">
                 <div className="informacion-text-menor">
                     <img src={menor} alt="menor" />
-                    <p><b>Menores: </b></p>
+                    <p className="textoLink"><b>Menores: </b></p>
                     <div>
                         <p>Acceso permitido a todos los públicos. Entrada gratuita para menores de 5 años.</p>
                         <p>gratuita para menores de 5 años.</p>
