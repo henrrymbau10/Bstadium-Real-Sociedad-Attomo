@@ -131,7 +131,7 @@ export default function Contact() {
             <img src={menor} alt="calendario" />
           </div>
           <div className="mobile-general-text">
-            <p><b>Menores:</b> Acceso permitido a todos los públicos. Entrada gratuita para menores de 5 años.</p>
+            <p id="textoId"><b>Menores:</b> Acceso permitido a todos los públicos. Entrada gratuita para menores de 5 años.</p>
           </div>
         </div>
         <div className="informacion-container-mobile-general">
@@ -175,7 +175,7 @@ export default function Contact() {
         <h1>
           Descubre y disfruta del tour <b>Reale Arena</b>
         </h1>
-        <button>ENTRADAS</button>
+        <button id="entradas">ENTRADAS</button>
         <img src={escudo} alt="escudo" />
         <div className="disfruta-bstadium">
           <p>Powered by</p>

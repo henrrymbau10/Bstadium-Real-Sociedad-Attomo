@@ -35,7 +35,7 @@ export default function Information() {
             <div className="informacion-text">
                 <div className="informacion-text-location">
                     <img src={location} alt="location" />
-                    <p><b>Lugar: </b></p>
+                    <p id="lugarId"><b>Lugar: </b></p>
                     <div>
                         <p className="informacion-p-location">Reale Arena</p>
                         <p className="informacion-p-location">Punto de encuentro: Puerta Hospitaly</p>

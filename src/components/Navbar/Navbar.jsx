@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navbar.scss"
 import logo from "../../Assets/Images/Desktop/image 1.svg"
 import { useTranslation } from "react-i18next"
 // import { VscChromeClose } from 'react-icons/vsc';
+import { Menu, MobileIcon, MobileIcon2 } from './NavbarItem';
 // import { GiHamburgerMenu } from 'react-icons/gi';
+import { FaBars, FaTimes } from 'react-icons/fa';
+
+
 
 
 
 function Navbar() {
     const [t, i18n] = useTranslation("global")
-    // const [showMobileMenu, setShowMobileMenu] = useState(false);
+    const [showMobileMenu, setShowMobileMenu] = useState(false);
 
     const scrollTo = (nodeSelector) => {
         const domNode = document.querySelector(nodeSelector)
@@ -20,7 +24,21 @@ function Navbar() {
 
     return (
         <div className="navbar">
+            <div className="navbar-mobile">
+                <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                    <FaBars />
+                </MobileIcon>
 
+                <Menu open={showMobileMenu}>
+                    <MobileIcon2 onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                        <FaTimes />
+                    </MobileIcon2>
+                    <p onClick={() => { scrollTo(('.main-first')); setShowMobileMenu(!showMobileMenu) }}>{t("navbar.whatis")}</p>
+                    <p onClick={() => { scrollTo(('.main-second')); setShowMobileMenu(!showMobileMenu) }}>{t("navbar.included")}</p>
+                    <p onClick={() => { scrollTo(('#textoId')); setShowMobileMenu(!showMobileMenu) }}>{t("navbar.info")}</p>
+                    <p onClick={() => { scrollTo(('#entradas')); setShowMobileMenu(!showMobileMenu) }}>{t("navbar.tickets")}</p>
+                </Menu>
+            </div>
 
             <div className="navbar-logo">
                 <img src={logo} alt="logoBS" />
@@ -28,8 +46,8 @@ function Navbar() {
             <div className="navbar-list">
                 <p onClick={() => scrollTo('.main-first')}>{t("navbar.whatis")}</p>
                 <p onClick={() => scrollTo('.main-second')}>{t("navbar.included")}</p>
-                <p onClick={() => scrollTo('.informacion-text')}>{t("navbar.info")}</p>
-                <p onClick={() => scrollTo('.disfruta-bstadium')}>{t("navbar.tickets")}</p>
+                <p onClick={() => scrollTo('.informacion-container')}>{t("navbar.info")}</p>
+                <p onClick={() => scrollTo('#entradas')}>{t("navbar.tickets")}</p>
             </div>
             <div className="navbar-language">
                 <p onClick={() => i18n.changeLanguage("es")}><b>CAS</b></p>
