@@ -8,7 +8,7 @@ export const NavMobile = styled.div`
 
 export const Menu = styled.div`
     display: flex;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: ${({ open }) => (open ? "0" : "-100%")}; ;
     width: 100%;
@@ -16,7 +16,6 @@ export const Menu = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    transition: 2 all ease;
 
     p{
         color: white;
