@@ -8,14 +8,16 @@ export const NavMobile = styled.div`
 
 export const Menu = styled.div`
     display: flex;
-    background-color: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #1B1B1F 0.82%, #0667B0 27.77%, #0667B0 58.65%, #0667B0 74.33%, #1B1B1F 94.91%);
     position: absolute;
-    top: ${({ open }) => (open ? "0" : "-100%")}; ;
+    left: ${({ open }) => (open ? "0" : "-100%")}; ;
     width: 100%;
     height: 100vh;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    transition: 2 all ease;
+    top: 0;
 
     p{
         color: white;
