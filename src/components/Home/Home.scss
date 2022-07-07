@@ -1,5 +1,5 @@
 .home {
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -60,7 +60,7 @@
     }
 
     @media screen and (min-width: 300px) and (max-width:1099px) {
-        height: 100vh;
+        height: 85vh;
 
         .videodesk {
             display: none;
