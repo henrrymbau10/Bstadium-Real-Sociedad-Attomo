@@ -12,15 +12,43 @@ import { motion } from "framer-motion";
 //     hidden: { opacity: 0, scale: 0 }
 // };
 
-const textAnimate = {
-    offscreen: { y: 100, opacity: 0 },
+// const textAnimate = {
+//     offscreen: { y: 100, opacity: 0 },
+//     onscreen: {
+//         y: 0,
+//         opacity: 1,
+//         transition: {
+//             type: "spring",
+//             bounce: 0.4,
+//             duration: 1.5
+//         }
+//     }
+
+// }
+
+const textAnimateL = {
+    offscreen: { x: 100, opacity: 0 },
     onscreen: {
-        y: 0,
+        x: 0,
         opacity: 1,
         transition: {
             type: "spring",
             bounce: 0.4,
-            duration: 1
+            duration: 2.5
+        }
+    }
+
+}
+
+const textAnimateR = {
+    offscreen: { x: -100, opacity: 0 },
+    onscreen: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            type: "spring",
+            bounce: 0.4,
+            duration: 2.5
         }
     }
 
@@ -49,59 +77,59 @@ export default function Main() {
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate}>{t("main.whatis")}</motion.h1>
+                    variants={textAnimateL}>{t("main.whatis")}</motion.h1>
                 <motion.p
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate}>{t("main.whatis-text")}</motion.p>
+                    variants={textAnimateL}>{t("main.whatis-text")}</motion.p>
                 <motion.p
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate}>{t("main.whatis-text2")}</motion.p>
+                    variants={textAnimateL}>{t("main.whatis-text2")}</motion.p>
             </div>
             <div className="main-second">
                 <motion.h1
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate}>{t("main.included")}</motion.h1>
+                    variants={textAnimateR}>{t("main.included")}</motion.h1>
                 <div className="main-second-text">
                     <motion.img
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.5 }}
-                        variants={textAnimate}
+                        variants={textAnimateR}
                         src={copa} alt="copa" />
                     <motion.h2
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.5 }}
-                        variants={textAnimate}>{t("main.included-subtitle")}</motion.h2>
+                        variants={textAnimateR}>{t("main.included-subtitle")}</motion.h2>
                 </div>
                 <motion.p
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate}>{t("main.included-text")}</motion.p>
+                    variants={textAnimateR}>{t("main.included-text")}</motion.p>
             </div>
             <div className="main-third">
                 <motion.h1
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate}>{t("main.experience")}</motion.h1>
+                    variants={textAnimateL}>{t("main.experience")}</motion.h1>
                 <motion.img
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate} src={gafas} alt="gafas" />
+                    variants={textAnimateL} src={gafas} alt="gafas" />
                 <motion.p
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate}>{t("main.experience-text")}</motion.p>
+                    variants={textAnimateL}>{t("main.experience-text")}</motion.p>
             </div>
             <div className="main-fourth">
                 <div className="main-fourth-text">
@@ -109,18 +137,18 @@ export default function Main() {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.5 }}
-                        variants={textAnimate}>{t("main.photo")}</motion.h2>
+                        variants={textAnimateR}>{t("main.photo")}</motion.h2>
                     <motion.img
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.5 }}
-                        variants={textAnimate} src={selfie} alt="" />
+                        variants={textAnimateR} src={selfie} alt="" />
                 </div>
                 <motion.p
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.5 }}
-                    variants={textAnimate}>{t("main.photo-text")}</motion.p>
+                    variants={textAnimateR}>{t("main.photo-text")}</motion.p>
             </div>
         </div>
     )
