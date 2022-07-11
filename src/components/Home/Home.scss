@@ -17,9 +17,6 @@
         z-index: -1;
     }
 
-    .videomob {
-        display: none;
-    }
 
     h1 {
         font-weight: 900;
@@ -60,7 +57,7 @@
     }
 
     @media screen and (min-width: 300px) and (max-width:1099px) {
-
+        height: 100vh;
 
         h1 {
             font-size: 42px;
