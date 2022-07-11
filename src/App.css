@@ -33,3 +33,8 @@ body {
     transform: translate(0%, 0%) rotate(360deg);
   }
 }
+
+Body {
+  padding: 0;
+  margin: 0;
+}
