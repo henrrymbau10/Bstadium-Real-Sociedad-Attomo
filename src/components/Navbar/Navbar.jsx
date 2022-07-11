@@ -6,9 +6,6 @@ import { Menu, MobileIcon, MobileIcon2 } from './NavbarItem';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 
-
-
-
 function Navbar() {
     const [t, i18n] = useTranslation("global")
     const [showMobileMenu, setShowMobileMenu] = useState(false);
