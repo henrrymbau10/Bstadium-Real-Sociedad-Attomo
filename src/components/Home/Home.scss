@@ -60,23 +60,7 @@
     }
 
     @media screen and (min-width: 300px) and (max-width:1099px) {
-        height: 95vh;
 
-        .videodesk {
-            display: none;
-        }
-
-        .videomob {
-            display: block;
-            position: absolute;
-            width: 100%;
-            left: 50%;
-            top: 50%;
-            height: 100vh;
-            object-fit: cover;
-            transform: translate(-50%, -50%);
-            z-index: -1;
-        }
 
         h1 {
             font-size: 42px;
