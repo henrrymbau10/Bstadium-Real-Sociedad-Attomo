@@ -3,7 +3,6 @@ import "./Home.scss"
 import { useTranslation } from "react-i18next"
 import Navbar from "./../Navbar/Navbar"
 import videoDesk from "../../Assets/Videos/VIDEO final.mp4"
-import videoMob from "../../Assets/Videos/VIDEO VERTICAL_low.mp4"
 
 export default function Home() {
     const [t] = useTranslation("global")
